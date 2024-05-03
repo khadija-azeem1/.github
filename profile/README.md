@@ -1,5 +1,5 @@
-# About IYS
+# About
 TDL
 
-# Purpose of Github Repository
+# Requesting Access to Repositories
 TDL
