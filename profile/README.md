@@ -5,4 +5,4 @@ TDL
 TDL
 
 # Important Repositories
-[Platform Documentation] (https://github.com/integratedyouthservices/platform-documentation)
+[Platform Documentation](https://github.com/integratedyouthservices/platform-documentation)
