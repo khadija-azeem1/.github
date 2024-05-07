@@ -1,5 +1,5 @@
 ---
-name: Access Request
+name: Dataset Access Request
 description: "Use this template to request access to the repository."
 body:
 - type: markdown
@@ -8,12 +8,27 @@ body:
 - type: markdown
   attributes:
     value: |
-      Thanks for taking the time to fill out this access request form!
+      Thanks for taking the time to fill out this dataset access request form!
 - type: input
   id: orcid
   attributes:
     label: Please specify your ORCID.
     description: "Your ORCID is needed in order to give you access to projects."
+  validations:
+    required: true
+- type: input
+  id: dataset_organization
+  attributes:
+    label: Dataset Organization Name.
+    description: "Specify the organization to which this dataset belongs."
+    placeholder: "IYS"
+  validations:
+    required: true
+- type: input
+  id: dataset_project
+  attributes:
+    label: Please specify the dataset project name.
+    description: "User access is given to projects.  Please provide the project name"
   validations:
     required: true
 ---
