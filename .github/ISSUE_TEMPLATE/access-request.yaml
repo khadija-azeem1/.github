@@ -1,6 +1,6 @@
 ---
 name: Access Request
-about: "Use this template to request access to the repository."
+description: "Use this template to request access to the repository."
 body:
 - type: markdown
   attributes:
