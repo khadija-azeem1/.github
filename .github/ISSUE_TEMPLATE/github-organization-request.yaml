@@ -1,0 +1,27 @@
+---
+name: Github Organization Access Request
+description: "Use this template to request access to the Github Organization."
+body:
+- type: markdown
+  attributes:
+    value: "## Welcome!"
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to fill out this Github Organization access request form!
+- type: input
+  id: github_id
+  attributes:
+    label: Please specify your Github username.
+    description: "We will provide access to the specified user."
+  validations:
+    required: true
+- type: input
+  id: Affiliation
+  attributes:
+    label: Please specify the organization that you are a part of.
+    description: "We will assign you to the appropriate organization and team in Github."
+    placeholder: "IYS"
+  validations:
+    required: true
+---
